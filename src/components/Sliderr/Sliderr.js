@@ -40,7 +40,7 @@ function Slider() {
                
                 <div className='slides'>
                 <img src="https://picsum.photos/240" />
-                    <img src="https://picsum.photos/211" />
+                <img src="https://picsum.photos/211" />
                     <img src="https://picsum.photos/212" />
                     <img src="https://picsum.photos/213" />
                     <img src="https://picsum.photos/214" />
@@ -51,6 +51,16 @@ function Slider() {
                     <img src="https://picsum.photos/232" />
                     <img src="https://picsum.photos/233" />
                     <img src="https://picsum.photos/234" />
+                    <img src="https://picsum.photos/205" />
+                    <img src="https://picsum.photos/206" />
+                    <img src="https://picsum.photos/207" />
+                    <img src="https://picsum.photos/278" /> 
+                    <img src="https://picsum.photos/256" />
+                    <img src="https://picsum.photos/2057" />
+                    <img src="https://picsum.photos/245" /> 
+                    <img src="https://picsum.photos/276" />
+                    <img src="https://picsum.photos/237" />
+                    <img src="https://picsum.photos/228" />
                    
                 </div>
                 <div className='handle next' onClick={slideRight}>
