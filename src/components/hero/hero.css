@@ -1,0 +1,150 @@
+
+.hero {
+    height: 600px;
+    position: relative; /* Add this to make the SVG position relative to .hero */
+}
+.img{
+  width: 44px;
+  display: flex;
+  justify-content: end;
+}
+
+.herotext {
+    padding: 100px;
+    margin-left: 100px;
+    font-size: xxx-large;
+    width: fit-content;
+    display: flex;
+}
+
+.svg-background {
+    position: absolute;
+  width: 191%;
+  height: 91%;
+  top: 0;
+  left: -92%;
+  z-index: -1;
+  transform: rotate(337deg);
+}
+.svg-backgroundd {
+    position: absolute;
+  width: 191%;
+  height: 124%;
+  top: 0;
+  left: 52%;
+  z-index: -1;
+  transform: rotate(358deg);
+
+}
+
+.texto{
+  display: 'flex';
+   align-items: 'flex-end';
+    justify-content:'space-between';
+    display:'block-ruby';
+
+
+    
+}
+.maintext{
+  width: 500px;
+}
+
+.svgg{
+  width: 63%;
+
+
+}
+.svggg{
+  justify-content: center;
+  display: flex;
+}
+
+
+
+/*animation*/
+.herotext h1 {
+  animation-name: slideInFromLeft;
+  animation-duration: 2s;
+  animation-timing-function: ease;
+}
+
+@keyframes slideInFromLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-50%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+
+@media (max-width: 641px) {
+
+  .hero {
+    height: 600px;
+    position: relative;
+}
+.texto{
+  font-size: 37px;
+}
+
+.img {
+    width: 44px;
+    display: flex;
+    justify-content: end;
+}
+
+.maintext{
+  width: auto;
+}
+
+.herotext {
+    padding: 50px; /* Adjusted padding for smaller screens */
+    font-size: larger; /* Adjusted font size for smaller screens */
+    
+    display: flex;
+    margin-left: 0px;
+ 
+    flex-direction: column; /* Stack items vertically */
+}
+
+.svg-background {
+    display: none; /* Hide SVG background on small screens */
+}
+
+.svg-backgroundd {
+    display: none; /* Hide SVG background on small screens */
+}
+
+.svgg {
+    width: 88%; /* Full width for SVG on small screens */
+}
+
+.svggg {
+    justify-content: center;
+    display: flex;
+}
+
+/* Animation */
+.herotext h1 {
+    animation-name: slideInFromLeft;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+}
+
+@keyframes slideInFromLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-50%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+ 
+}

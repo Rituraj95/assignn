@@ -1,0 +1,18 @@
+.footer{
+    background-color: #F6B409;
+}
+.h1{
+    font-weight: bold;
+    font-size: 23px;
+}
+
+@media only screen and (max-width: 640px) {
+    .footer {
+      padding: 20px; 
+    }
+  
+    .h1 {
+      font-size: 18px;
+    }
+  }
+  

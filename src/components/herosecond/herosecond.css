@@ -1,0 +1,27 @@
+.herosecond{
+    height: 600px;
+    
+    background-color: #38B8FC;
+}
+.slick-slide > div{
+    margin: 0 10px;
+}
+.cla{
+    background: silver;
+}
+.slick-prev,
+.slick-next {
+    left: 1400px; /* Adjust the left position */
+    right: auto;
+}
+@media screen and (max-width: 768px) {
+    .herosecond {
+        height: 656px; /* Adjust height for smaller screens */
+    }
+    
+    .slick-prev,
+    .slick-next {
+        left: auto; /* Reset left position */
+        right: 10px; /* Move arrows to the right side */
+    }
+}

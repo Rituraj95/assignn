@@ -1,0 +1,17 @@
+.bg-blue-400 {
+    background-color: #4299e1; /* Change to your desired background color */
+  }
+  
+  /* Mobile Styles */
+  @media (max-width: 640px) {
+    .absolute.inset-y-0.left-0 {
+      display: block; /* Show the mobile menu button */
+    }
+    
+ 
+    .hidden.sm\:block {
+      display: block; /* Show the mobile navigation links */
+    }
+  }
+  
+
