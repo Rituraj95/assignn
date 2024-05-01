@@ -39,6 +39,8 @@ function Slider() {
             <div className='slider'>
                
                 <div className='slides'>
+                <img src="https://picsum.photos/211" />
+                    <img src="https://picsum.photos/212" />
                     <img src="https://picsum.photos/200" />
                     <img src="https://picsum.photos/201" />
                     <img src="https://picsum.photos/202" />
@@ -51,6 +53,18 @@ function Slider() {
                     <img src="https://picsum.photos/209" />
                     <img src="https://picsum.photos/210" />
                     <img src="https://picsum.photos/212" />
+
+                    <img src="https://picsum.photos/248" />
+                    <img src="https://picsum.photos/259" />
+                    <img src="https://picsum.photos/250" />
+                    <img src="https://picsum.photos/212" />     
+                    <img src="https://picsum.photos/259" />
+                    <img src="https://picsum.photos/230" />
+                    <img src="https://picsum.photos/262" />     
+                    <img src="https://picsum.photos/269" />
+                    <img src="https://picsum.photos/220" />
+                    <img src="https://picsum.photos/229" />
+
 
                    
                 </div>
